@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/game.css">
+
+    <!--cdn for css bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--cdn for jquery bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title></title>
+  </head>
+  <body onload=" ChangeAlpha();">
+
+    <!-- NavBar -->
+
+      <nav class="navbar navbar-expand-lg  navbar-light" style="background-color:#f4f4f4; " >
+     <a class="navbar-brand "href="index.html"><img src="images/uttam.png"  class="d-inline-block align-top logo-img" alt=""></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item ">
+           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+           <a class="nav-link" href="#">Game</a>
+          </li>
+          <li class="nav-item ">
+           <a class="nav-link"  href="#foot">Contact</a>
+          </li>
+
+
+        </ul>
+      </div>
+
+      </nav>
+
+  <!-- end of  NavBar -->
+
+
+  <!-- Game box-->
+
+
+
+    <!-- End of Game box-->
+    <section id="game">
+
+   <!--<button class="start"type="button" name="button">start</button>-->
+    <div class="jumbotron" >
+      <div class="container game-box">
+
+           <div class="row  ">
+             <div class="col-lg-4 col-md-4 col-sm-4 score-on-top">
+
+              <p class=" hideObject score">Score: 0</p>
+              <p class=" hideObject timer"></p>
+
+              </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                <h1 class=" hideObject show-Alpha shadow-box">A</h1>
+
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+
+              </div>
+
+
+
+           </div>
+            <div class="row  Game">
+              <div class="col-lg">
+                <button class="start-game" type="button" name="button">Start Game</button>
+
+              </div>
+
+            </div>
+           <div class="row bottom-button">
+             <div class="col-lg=12 col-md-12 col-sm-12 ">
+
+              <hr>
+                  <div class="click-btn hideObject"  id="btn1" type="button" name="button"><h1 class="type1 h1-btn"></h1></div>
+                  <div class="click-btn hideObject" id="btn2" type="button" name="button"><h1 class="type2 h1-btn"></h1></div>
+                  <div class="click-btn hideObject" id="btn3" type="button" name="button"><h1 class="type3 h1-btn"></h1></div>
+                  <div class="click-btn hideObject" id="btn4" type="button" name="button"><h1 class="type4 h1-btn"></h1></div>
+
+
+             </div>
+
+           </div>
+
+      </div>
+    </div>
+</section>
+
+
+<script type="text/javascript" src="js/Game.js">
+
+</script>
+  </body>
+  <footer id="foot">
+    <div class="row">
+
+        <div class="col-lg-12">
+
+           <p> <a class="contact-icon" href="#"><i class='fab fa-facebook'></i></a> <a class="contact-icon" href="#"><i style='color:red'class='fab fa-instagram'></i></a> </p>
+          <p class="developed-para"><i id="developed-by">Developed by: </i>Uttam Sharma</p>
+        </div>
+
+    </div>
+  </footer>
+
+</html>

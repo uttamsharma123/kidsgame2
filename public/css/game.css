@@ -1,0 +1,314 @@
+body{
+
+
+}
+
+.big-text
+{
+  font-size: 3.5rem;
+}
+  .logo-img{
+  width:50px;
+  border:1px solid #00263b;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #ff5200;
+
+}
+
+
+.game-box{
+   height: 800px;
+   margin:20px;
+   padding-left: 20px;
+    background-image: url("https://i.pinimg.com/564x/c1/2e/a2/c12ea23a27b351a23b55a91d272863c0.jpg");
+    padding:2% 5% 0 5%;
+    text-align: center;
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+    border:1px solid red;
+
+}
+#game{
+  padding-top:3%;;
+
+}
+
+/* socre box*/
+.score{
+
+  border: 1px solid #202040;
+  text-align: left;
+  font-size: 2.5rem;
+  padding-left:10px;
+  font-weight: bold;
+  font-family: Georgia;
+  background-color: white;
+  width:260px;
+}
+
+.show-Alpha{
+  text-align: center;
+  color:#d7385e;
+  padding:7%;
+  font-size:15.5rem;;
+  font-family: Georgia;
+  font-weight: bold;
+
+}
+.bottom-button{
+  padding:10% 0% 0% 0%;
+
+}
+.h1-btn{
+  font-size: 6.5rem;
+  font-family: "Times New Roman",sans-serif;
+  color:#035aa6;
+  font-weight: bold;
+  text-shadow: 3px 0px  #888888;
+  text-align: center;
+  padding-top:15%;
+
+}
+.click-btn {
+  height: 200px;
+  width: 150px;
+  margin:20px;
+  border: none;
+  box-shadow: 0px 0px 10px 0px #eb4559;
+  border-radius: 50%;
+  display:inline-block;
+  background-color:#dddddd;
+
+
+
+
+
+
+}
+.start-game{
+  width:500px;
+  font-size: 3.4rem;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px #eb4559;
+  font-family: "Times New Roman",sans-serif;
+  font-weight: bold;
+  color:#142850;
+}
+.hideObject{
+  visibility: hidden;
+}
+
+
+
+.pressed{
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 2px #888888;
+  transform: translateY(4px);
+}
+.wrongPressed{
+  background-color: #fa877f;
+  box-shadow: 0px 0px 20px 2px #888888;
+  transform: translateY(4px);
+}
+.rightPressed{
+  background-color: #b7efcd;
+  box-shadow: 0px 0px 20px 2px #888888;
+  transform: translateY(4px);
+}
+.shadow-box{
+   text-shadow: 6px 2px  #faf4ff;
+}
+
+#footer{
+  text-align: center;
+
+
+  background-color: #f1e3cb;
+  height: 5px;
+
+}
+#foot{
+background-color: #fff0f5;
+  text-align: center;
+}
+.contact-icon{
+  margin:0px;
+  font-size: 30px;
+}
+
+.developed-para{
+  color: #8db1ab;
+}
+#developed-by{
+  font-size: 1rem;
+}
+
+
+
+.try-text{
+  text-shadow: 2px 2px  #ffd31d;
+  color:#d63447;
+  margin-bottom: 5%;
+  font-size: 7rem;
+}
+.try-img{
+  height: 250px;
+  width:250px;
+  text-align: center;
+  padding-bottom: 15%;
+}
+.try-btn{
+  border-radius: 100%;
+  background-color:#74d4c0;
+  box-shadow: 0px 0px 20px 2px #888888;
+  border: 2px solid #6a097d;
+  width:300px;
+  height:300px;
+
+}
+
+#tryAgain{
+  text-align: center;
+}
+.score1{
+  padding-top: 12px;
+
+  font-size: 2.5rem;
+
+  font-weight: bold;
+  font-family: Georgia;
+  background-color: white;
+
+}
+.timer{
+position: absolute;
+top:0%;
+left:260%;
+font-size:3rem;
+font-weight: bold;
+font-family: Georgia;
+color:#ff5200;
+padding:2%;
+text-shadow: 3px 0 #fff;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .timer{
+
+  position: absolute;
+  top:0%;
+  left:80%;
+  font-size: 1.4rem;
+
+
+  padding:2%;
+
+  }
+  .big-text
+  {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .logo-img{
+    width:40px;
+    border:1px solid red;
+    border-radius: 50%;
+  }
+.game-box{
+    height: 500px;
+
+    margin:20px;
+    padding: 20px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+  }
+  .show-alphabet{
+        }
+
+.click-btn
+{
+  height: 70px;
+  width: 50px;
+  margin:5px;
+
+
+
+}
+
+.bottom-button{
+
+
+}
+.h1-btn
+{
+  font-size: 2.5rem;
+}
+.score{
+  font-size: 1.5rem;
+ width:170px;
+
+}
+.show-Alpha{
+  font-size:10rem;
+    padding:5%;
+}
+
+/*try again css*/
+
+.try-again{
+  font-size: 3.5rem;
+
+  padding-top: 25%;
+}
+#footer{
+
+  padding: 50% 10%;
+
+}
+
+.try-text{
+  text-shadow: 2px 2px  #ffd31d;
+  color:#d63447;
+  margin-bottom: 10%;
+  font-size: 3.5rem;
+
+}
+.try-img{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding-bottom:0;
+}
+.try-btn{
+  border-radius: 100%;
+
+  background-color:#74d4c0;
+  box-shadow: 0px 0px 20px 2px #888888;
+  border: 2px solid #6a097d;
+  width:150px;
+  height: 150px;
+}
+
+.start-game{
+  width:200px;
+  font-size:2rem;
+
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px #eb4559;
+  font-family: "Times New Roman",sans-serif;
+  font-weight: bold;
+  color:#142850;
+}
+
+
+#footer{
+
+  padding: 50% 10%;
+
+}
+}
